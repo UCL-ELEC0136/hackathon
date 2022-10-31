@@ -25,7 +25,7 @@ This assignment will not be graded.
 
 ## Constraints
 For each task, you must:
-- Provide an `environment.yml` file that combines a conda recipe wiht pip requirements (example here: https://stackoverflow.com/a/35245610/6655465)
+- Provide an `environment.yml` file that combines a conda recipe with pip requirements (example here: https://stackoverflow.com/a/35245610/6655465)
 - The [`name` of the conda environment](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#create-env-file-manually) (not the filename) must be `daps-hackathon`
 - Your code must be *reproducible* by us, by simply running `conda env create -f environment.yml && conda activate daps-hackathon && python main.py`
 - Follow the [PEP8](https://peps.python.org/pep-0008/) guidelines to write good compliant code
