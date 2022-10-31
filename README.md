@@ -31,7 +31,7 @@ For each task, you must:
 - Follow the [PEP8](https://peps.python.org/pep-0008/) guidelines to write good compliant code
 - Use only the [GitHub API](https://docs.github.com/en/rest) and the `requests` python library to acquire any data, any wrapper around these (e.g. https://github.com/PyGithub/PyGithub) is not allowed
 
-## Advices
+## Advice
 - Google, Google, Google! It is very likely that many before you have had the same exact question you have, seek the answer online!
 - You can follow [these instructions](https://dba.stackexchange.com/questions/192507/how-to-add-useradmin-user-in-mongodb-atlas) to create a user in MongoDB Atlas
 - You can follow these [guidelines](https://pip.pypa.io/en/stable/user_guide/#requirements-files) to create the requirements file. Do NOT create the file automatically with `pip freeze` or similar, as this is NOT recommended by us (in contrast to the documentation)
