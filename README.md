@@ -57,7 +57,8 @@ We seek the answers to the following questions:
 1. Retrieve all the repositories from the organisation and store the results in a MongoDB Atlas database.
 2. Which is the repository with the highest number of stargazers? What the one with the lowest? What is the average number of stargazers per repo, what its standard deviation?
 3. What are the `5`, `10`, `25`, `75`, `90`, and `95` percentiles of the distribution?
-4. Draw a histogram of the distribution, and save it on disk. Draw one boxplot for each of these percentile pairs: `5` and `95`; `10` and `90`; `25` and `75`, and save it on disk. Check [this](https://stackoverflow.com/questions/27214537/is-it-possible-to-draw-a-matplotlib-boxplot-given-the-percentile-values-instead) on how to personalise boxplots.
+4. Draw a histogram of the distribution, and save it on disk. 
+5. Draw one boxplot for each of these percentile pairs: `5` and `95`; `10` and `90`; `25` and `75`, and save it on disk. Check [this](https://stackoverflow.com/questions/27214537/is-it-possible-to-draw-a-matplotlib-boxplot-given-the-percentile-values-instead) on how to personalise boxplots.
 
 
 ### Submitting task 1
