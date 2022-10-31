@@ -27,14 +27,9 @@ This assignment will not be graded.
 For each task, you must:
 - Provide an `environment.yml`file that combines a conda recipe wiht pip requirements (example here: https://stackoverflow.com/a/35245610/6655465)
 - The [`name` of the conda environment](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#create-env-file-manually) (not the filename) must be `daps-hackathon`
-- Follow the [PEP8](https://peps.python.org/pep-0008/) guidelines to write good compliant code
-- Use only the [GitHub API](https://docs.github.com/en/rest) to acquire any data
-- Use only the `requests` library to perform HTTP requests to the GitHub API through Python, and not any wrapper around that that specifically targets the GitHub API
-- Store the result of each request in MongoDB Atlas using the `pymongo` library
-- For numerical calculations, use either `numpy`, `pandas`, `jax` or `pytorch`
-- For data visualisation, use `matplotlib`
-- Solve, at least, task 1 in class, and not at home
 - Your code must be *reproducible* by us, by simply running `conda env create -f environment.yml && conda activate daps-hackathon && python main.py`
+- Follow the [PEP8](https://peps.python.org/pep-0008/) guidelines to write good compliant code
+- Use only the [GitHub API](https://docs.github.com/en/rest) and the `requests` python library to acquire any data, any wrapper around these (e.g. https://github.com/PyGithub/PyGithub) is not allowed
 
 ## Advices
 - Google, Google, Google! It is very likely that many before you have had the same exact question you have, seek the answer online!
@@ -42,6 +37,9 @@ For each task, you must:
 - You can follow these [guidelines](https://pip.pypa.io/en/stable/user_guide/#requirements-files) to create the requirements file. Do NOT create the file automatically with `pip freeze` or similar, as this is NOT recommended by us (in contrast to the documentation)
 - Install a code formatter extension in VScode, such as [`black`](https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter) or [`autopep8`](https://marketplace.visualstudio.com/items?itemName=himanoa.Python-autopep8) to auto-format your code according to PEP8.
 - Take a brief scan to the [GitHub API](https://docs.github.com/en/rest) documentation to be able to orient yourself during the lab.
+- For numerical calculations, use either `numpy`, `pandas`, `jax` or `pytorch`
+- For data visualisation, use `matplotlib`
+- Use the `pymongo` python library to interface with MongoDB Atlas
 
 
 
