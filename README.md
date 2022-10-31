@@ -145,7 +145,6 @@ publish the credentials in a comment in the `feedback` pull request of the assig
 - Mongodb
   - How mongo implements the CRUD interface: https://www.mongodb.com/docs/manual/crud/
   - How to process data during retrieval in mongo with the aggregation API: https://www.mongodb.com/docs/atlas/app-services/mongodb/crud-and-aggregation-apis/
-- Plotting in python with `matplotlib`
 
 
 ## Have fun! :rocket:
