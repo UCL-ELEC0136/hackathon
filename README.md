@@ -21,6 +21,7 @@ This assignment will not be graded.
 - An account in Mongo Atlas: https://www.mongodb.com/atlas/database
 - A GitHub account
 - A Fine-grained Personal Access Token, 30 days expiration date, public repositories access, no permissions
+- This is a *group* assignments, please form groups of max 3 people
 
 ## Constraints
 For each task, you must:
@@ -81,9 +82,8 @@ We will consider the task to be completed if the following conditions are met
 }
 ```
 - The values of each object are mathematically correct.
-
-Please, [create a user](https://dba.stackexchange.com/questions/192507/how-to-add-useradmin-user-in-mongodb-atlas) with **read-only permissions** to access the database, and
-send publish the credentials in the `feedback` pull request of the assignment.
+- Please, [create a user](https://dba.stackexchange.com/questions/192507/how-to-add-useradmin-user-in-mongodb-atlas) with **read-only permissions** to access the database,
+publish the credentials in a comment in the `feedback` pull request of the assignment, and tag one of us.
 
 ## Task 2: Time series
 Now consider the https://github.com/google/jax repository.
@@ -104,6 +104,8 @@ We will consider the task to be completed under the following conditions:
 }
 ```
 - The values of each object are mathematically correct.
+- Please, [create a user](https://dba.stackexchange.com/questions/192507/how-to-add-useradmin-user-in-mongodb-atlas) with **read-only permissions** to access the database, and
+publish the credentials in a comment in the `feedback` pull request of the assignment.
 
 ## Task 3: Classification with hand-designed features
 Now consider the following issue https://github.com/google/jax/issues/5501
@@ -125,6 +127,8 @@ We will consider the task to be completed under the following conditions:
 }
 ```
 - The values of each object are mathematically correct.
+- Please, [create a user](https://dba.stackexchange.com/questions/192507/how-to-add-useradmin-user-in-mongodb-atlas) with **read-only permissions** to access the database, and
+publish the credentials in a comment in the `feedback` pull request of the assignment.
 
 ## FAQs
 -
