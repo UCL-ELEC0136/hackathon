@@ -42,6 +42,11 @@ For each task, you must:
 - For data visualisation, use `matplotlib`
 - Use the `pymongo` python library to interface with MongoDB Atlas
 
+## Submitting a task
+To submit your work, please [merge](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request) the `Feedback` pull request into the relative `feedback` branch.
+This include partial submissions, like a single task.
+In case of incremental submission, such as submitting only task 1 and then only task 2, proceed with multiple merges to the `feedback` branch.
+This is a key requirement since it will trigger automated scoring for your code, which is a necessary requirement for this assignment, and for the final one.
 
 
 # Tasks
@@ -63,8 +68,7 @@ We seek the answers to the following questions:
 
 ### Submitting task 1
 We will consider the task to be completed if the following conditions are met
-- In your MongoDB Atlas there exists a user with *read-only permissions* to access all databases
-- The credentials of this user are published in the [`Feedback`](#1) pull request of the assignment
+- In your MongoDB Atlas there exists a user with username `student` and password `assignment`, with *read-only permissions* to access all databases. See here how to [create a user](https://dba.stackexchange.com/questions/192507/how-to-add-useradmin-user-in-mongodb-atlas).
 - In your mongodb there is a database named `hackathon` and a collection named `answer`
 - The collection contains the following document:
 ```json
@@ -83,8 +87,6 @@ We will consider the task to be completed if the following conditions are met
   }
 }
 ```
-- The values of each object are mathematically correct.
-- Please, [create a user](https://dba.stackexchange.com/questions/192507/how-to-add-useradmin-user-in-mongodb-atlas) with **read-only permissions** to access the database, with username `student` and password `assignment`.
 
 ## Task 2: Time series
 Now consider the https://github.com/google/jax repository.
@@ -94,8 +96,9 @@ We ask you to complete the following:
 3. Create a timeseries that shows the number of commits per day, draw a line plot representing the timeseries and save it to disk.
 
 #### Submitting task 2
-We will consider the task to be completed under the following conditions:
-- In your MongoDB there is a database named `hackathon` and a collection named `answer`
+We will consider the task to be completed if the following conditions are met
+- In your MongoDB Atlas there exists a user with username `student` and password `assignment`, with *read-only permissions* to access all databases. See here how to [create a user](https://dba.stackexchange.com/questions/192507/how-to-add-useradmin-user-in-mongodb-atlas).
+- In your mongodb there is a database named `hackathon` and a collection named `answer`
 - The collection contains the following document:
 ```json
 {
@@ -104,8 +107,6 @@ We will consider the task to be completed under the following conditions:
   }
 }
 ```
-- The values of each object are mathematically correct.
-- Please, [create a user](https://dba.stackexchange.com/questions/192507/how-to-add-useradmin-user-in-mongodb-atlas) with **read-only permissions** to access the database, with username `student` and password `assignment`.
 
 ## Task 3: Classification with hand-designed features
 Now consider the following issue https://github.com/google/jax/issues/5501
@@ -115,7 +116,8 @@ We seek answers to the following questions:
 3. As a discriminant, hand-designed feature, we consider the comment with the highest count of `heart` + `rocket` + `horray` reactions as the correct answer to the issue.
 
 #### Submitting task 3
-We will consider the task to be completed under the following conditions:
+We will consider the task to be completed if the following conditions are met
+- In your MongoDB Atlas there exists a user with username `student` and password `assignment`, with *read-only permissions* to access all databases. See here how to [create a user](https://dba.stackexchange.com/questions/192507/how-to-add-useradmin-user-in-mongodb-atlas).
 - In your mongodb there is a database named `hackathon` and a collection named `answer`
 - The collection contains the following document:
 ```json
@@ -126,8 +128,6 @@ We will consider the task to be completed under the following conditions:
   }
 }
 ```
-- The values of each object are mathematically correct.
-- Please, [create a user](https://dba.stackexchange.com/questions/192507/how-to-add-useradmin-user-in-mongodb-atlas) with **read-only permissions** to access the database, with username `student` and password `assignment`.
 
 ## FAQs
 -
