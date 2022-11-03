@@ -44,9 +44,9 @@ For each task, you must:
 
 ## Submitting a task
 To submit your work, please [merge](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request) the `Feedback` pull request into the relative `feedback` branch.
-This include partial submissions, like a single task.
-In case of incremental submission, such as submitting only task 1 and then only task 2, proceed with multiple merges to the `feedback` branch.
-This is a key requirement since it will trigger automated scoring for your code, which is a necessary requirement for this assignment, and for the final one.
+This includes partial submissions, like a single task.
+In the case of incremental submission, such as submitting only task 1 and then only task 2, please proceed with multiple merges to the `feedback` branch, and re-open a new pull request if necessary.
+This is a key requirement as it triggers automated scoring for your code, which is a necessary requirement for this assignment, and for the final one.
 
 
 # Tasks
