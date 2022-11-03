@@ -30,6 +30,7 @@ For each task, you must:
 - Your code must be *reproducible* by us, by simply running `conda env create -f environment.yml && conda activate daps-hackathon && python main.py`
 - Follow the [PEP8](https://peps.python.org/pep-0008/) guidelines to write good compliant code
 - Use only the [GitHub API](https://docs.github.com/en/rest) and the `requests` python library to acquire any data, any wrapper around these (e.g. https://github.com/PyGithub/PyGithub) is not allowed
+- If you are performing authenticated requests, we expect to the fine-grained Personal Access Token stored in a `src/github.token` file
 
 ## Advice
 - Google, Google, Google! It is very likely that many before you have had the same exact question you have, seek the answer online!
